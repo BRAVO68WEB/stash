@@ -1,16 +1,12 @@
 {
 	"name": "stash",
+	"author": "Jyotirmoy Bandopadhayaya <hi@b68.dev> (https://b68.dev)",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/BRAVO68WEB/stash.git"
+	},
 	"type": "module",
 	"module": "index.ts",
-  "author": {
-    "email": "hi@b68.dev",
-    "name": "Jyotirmoy <BRAVO68WEB> Bandopadhayaya",
-    "url": "https://b68.dev"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/BRAVO68WEB/stash.git"
-  },
 	"scripts": {
 		"build": "bun build ./index.ts --compile --outfile=stash",
 		"dev": "bun run --hot index.ts",
