@@ -1,0 +1,23 @@
+version: '3.8'
+
+services:
+  stash:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - '9988:9988'
+    volumes:
+      - uploads:/app/uploads
+    environment:
+      - NODE_ENV=production
+    restart: unless-stopped
+    healthcheck:
+      test: ['CMD', 'curl', '-f', 'http://localhost:9988']
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 5s
+
+volumes:
+  uploads:
