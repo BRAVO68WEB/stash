@@ -1,7 +1,7 @@
 import type { Server } from 'bun';
 
 const port = 9988;
-const CHUNK_SIZE = 1024 * 1024 * 5;
+const CHUNK_SIZE = 1024 * 1024;
 const MAX_FILE_SIZE = 1024 * 1024 * 1024 * 2;
 
 class Handler {
