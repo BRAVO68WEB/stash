@@ -2,11 +2,7 @@
 📦 Stash
 </h1>
 
-<img src="logo.png" style="border-bottom: none; 
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;">
+<img src="https://raw.githubusercontent.com/BRAVO68WEB/stash/refs/heads/main/logo.png" style="border-bottom: none; display: block; margin-left: auto; margin-right: auto; width: 25%;">
 
 <h3  align="center">A lightweight and fast file upload server built with Bun runtime that supports file uploads and downloads. </h3>
 
