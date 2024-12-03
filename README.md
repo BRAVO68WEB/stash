@@ -14,8 +14,8 @@
 
 <p  align="center">
 
-<a  href="https://github.com/BRAVO68WEB/stash/actions/workflows/test.yml">
-<img  alt="Build states"  src="https://github.com/BRAVO68WEB/stash/actions/workflows/ci.yml/badge.svg?branch=main">
+<a  href="https://github.com/BRAVO68WEB/stash/actions/workflows/ci.yaml">
+<img  alt="Build states"  src="https://github.com/BRAVO68WEB/stash/actions/workflows/ci.yaml/badge.svg?branch=main">
 </a>
 
 <p  align="center">
