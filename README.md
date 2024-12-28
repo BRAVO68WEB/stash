@@ -59,7 +59,7 @@ bun dev
 ### File Upload
 
 ```bash
-curl -T <file> http://localhost:9988/<file>
+curl -T <file> http://localhost:9988
 ```
 
 ### File Download
